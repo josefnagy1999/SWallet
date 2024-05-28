@@ -1,0 +1,37 @@
+\begin{theindex}
+
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/moc\_predefs.h}, 
+		\hyperpage{13}
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_clienthomepage.h}, 
+		\hyperpage{18}
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_mainwindow.h}, 
+		\hyperpage{20}
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_newswallet.h}, 
+		\hyperpage{21}
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_newwallet.h}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {Client}, \hyperpage{7}
+  \item {clientHomePage}, \hyperpage{7}
+  \item {ClientManager}, \hyperpage{8}
+
+  \indexspace
+
+  \item {MainWindow}, \hyperpage{8}
+
+  \indexspace
+
+  \item {newSWallet}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Ui::clientHomePage}, \hyperpage{8}
+  \item {Ui::MainWindow}, \hyperpage{9}
+  \item {Ui::newSWallet}, \hyperpage{10}
+  \item {Ui\_clientHomePage}, \hyperpage{11}
+  \item {Ui\_MainWindow}, \hyperpage{11}
+  \item {Ui\_newSWallet}, \hyperpage{12}
+
+\end{theindex}

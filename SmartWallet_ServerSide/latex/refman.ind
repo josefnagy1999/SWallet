@@ -1,0 +1,29 @@
+\begin{theindex}
+
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/moc\_predefs.h}, 
+		\hyperpage{11}
+  \item {build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_mainwindow.h}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {Client}, \hyperpage{7}
+
+  \indexspace
+
+  \item {DBManager}, \hyperpage{7}
+
+  \indexspace
+
+  \item {MainWindow}, \hyperpage{8}
+
+  \indexspace
+
+  \item {ServerManager}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Ui::MainWindow}, \hyperpage{8}
+  \item {Ui\_MainWindow}, \hyperpage{9}
+
+\end{theindex}

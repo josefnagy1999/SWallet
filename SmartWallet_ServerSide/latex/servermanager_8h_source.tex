@@ -1,0 +1,40 @@
+\doxysection{servermanager.\+h}
+\hypertarget{servermanager_8h_source}{}\label{servermanager_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ SERVERMANAGER\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ SERVERMANAGER\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}client.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}dbmanager.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QObject>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QTcpServer>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QTcpSocket>}}
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classServerManager}{ServerManager}}\ :\ \textcolor{keyword}{public}\ QObject}
+\DoxyCodeLine{00010\ \{}
+\DoxyCodeLine{00011\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00012\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classServerManager}{ServerManager}}(ushort\ port\ =\ 4500\ ,QObject\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00014\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{void}\ newClientConnectionRecieved();}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{void}\ onClientDisconnected();}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ dataRecieved(QTcpSocket\ *\ client);}
+\DoxyCodeLine{00018\ signals:}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ newClientConnected(QTcpSocket\ *\ client);}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{void}\ ClientDisconnected(QTcpSocket\ *\ client);}
+\DoxyCodeLine{00021\ \textcolor{keyword}{private}:\ \textcolor{comment}{//\ Fields}}
+\DoxyCodeLine{00022\ \ \ \ \ QTcpServer\ *\ server;}
+\DoxyCodeLine{00023\ \ \ \ \ QList<QTcpSocket\ *>\ clients;}
+\DoxyCodeLine{00024\ \ \ \ \ QTcpSocket\ *\ clientSocket;}
+\DoxyCodeLine{00025\ \ \ \ \ \mbox{\hyperlink{classClient}{Client}}\ client;}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{private}:\ \textcolor{comment}{//Methods}}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ setupServer(ushort\ port);}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ setupDB();}
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classDBManager}{DBManager}}\ *\ DB;}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SERVERMANAGER\_H}}
+
+\end{DoxyCode}

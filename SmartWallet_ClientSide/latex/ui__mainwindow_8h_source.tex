@@ -1,0 +1,110 @@
+\doxysection{ui\+\_\+mainwindow.\+h}
+\hypertarget{ui__mainwindow_8h_source}{}\label{ui__mainwindow_8h_source}\index{build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_mainwindow.h@{build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_mainwindow.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ Form\ generated\ from\ reading\ UI\ file\ 'mainwindow.ui'}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ Created\ by:\ Qt\ User\ Interface\ Compiler\ version\ 6.7.0}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**}}
+\DoxyCodeLine{00006\ \textcolor{comment}{**\ WARNING!\ All\ changes\ made\ in\ this\ file\ will\ be\ lost\ when\ recompiling\ UI\ file!}}
+\DoxyCodeLine{00007\ \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#ifndef\ UI\_MAINWINDOW\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ UI\_MAINWINDOW\_H}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QtCore/QVariant>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QtWidgets/QApplication>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QtWidgets/QFrame>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLabel>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLineEdit>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QtWidgets/QMainWindow>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <QtWidgets/QPushButton>}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ <QtWidgets/QWidget>}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUi__MainWindow}{Ui\_MainWindow}}}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ QWidget\ *centralwidget;}
+\DoxyCodeLine{00027\ \ \ \ \ QPushButton\ *SignIn\_Button;}
+\DoxyCodeLine{00028\ \ \ \ \ QPushButton\ *newWallet\_Button;}
+\DoxyCodeLine{00029\ \ \ \ \ QFrame\ *phoneNumber\_frame;}
+\DoxyCodeLine{00030\ \ \ \ \ QLineEdit\ *phoneNumber\_lineEdit;}
+\DoxyCodeLine{00031\ \ \ \ \ QLabel\ *phoneNumber\_label;}
+\DoxyCodeLine{00032\ \ \ \ \ QFrame\ *frame;}
+\DoxyCodeLine{00033\ \ \ \ \ QLineEdit\ *password\_lineEdit;}
+\DoxyCodeLine{00034\ \ \ \ \ QLabel\ *password\_label;}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ setupUi(QMainWindow\ *\mbox{\hyperlink{classMainWindow}{MainWindow}})}
+\DoxyCodeLine{00037\ \ \ \ \ \{}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>objectName().isEmpty())}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setObjectName(\textcolor{stringliteral}{"{}MainWindow"{}});}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setWindowModality(Qt::NonModal);}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>resize(859,\ 374);}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setAutoFillBackground(\textcolor{keyword}{false});}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setTabShape(QTabWidget::Rounded);}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ centralwidget\ =\ \textcolor{keyword}{new}\ QWidget(\mbox{\hyperlink{classMainWindow}{MainWindow}});}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ centralwidget-\/>setObjectName(\textcolor{stringliteral}{"{}centralwidget"{}});}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ SignIn\_Button\ =\ \textcolor{keyword}{new}\ QPushButton(centralwidget);}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ SignIn\_Button-\/>setObjectName(\textcolor{stringliteral}{"{}SignIn\_Button"{}});}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ SignIn\_Button-\/>setGeometry(QRect(540,\ 130,\ 181,\ 61));}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ SignIn\_Button-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(87,\ 227,\ 137);\(\backslash\)n"{}}}
+\DoxyCodeLine{00051\ \textcolor{stringliteral}{"{}color:\ rgb(61,\ 56,\ 70);"{}}));}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ newWallet\_Button\ =\ \textcolor{keyword}{new}\ QPushButton(centralwidget);}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ newWallet\_Button-\/>setObjectName(\textcolor{stringliteral}{"{}newWallet\_Button"{}});}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ newWallet\_Button-\/>setGeometry(QRect(540,\ 210,\ 181,\ 61));}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ newWallet\_Button-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(98,\ 160,\ 234);\(\backslash\)n"{}}}
+\DoxyCodeLine{00056\ \textcolor{stringliteral}{"{}color:\ rgb(61,\ 56,\ 70);"{}}));}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ phoneNumber\_frame\ =\ \textcolor{keyword}{new}\ QFrame(centralwidget);}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}phoneNumber\_frame"{}});}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setGeometry(QRect(80,\ 110,\ 301,\ 81));}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setFrameShape(QFrame::NoFrame);}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ phoneNumber\_lineEdit\ =\ \textcolor{keyword}{new}\ QLineEdit(phoneNumber\_frame);}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ phoneNumber\_lineEdit-\/>setObjectName(\textcolor{stringliteral}{"{}phoneNumber\_lineEdit"{}});}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ phoneNumber\_lineEdit-\/>setGeometry(QRect(10,\ 40,\ 261,\ 26));}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ phoneNumber\_label\ =\ \textcolor{keyword}{new}\ QLabel(phoneNumber\_frame);}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ phoneNumber\_label-\/>setObjectName(\textcolor{stringliteral}{"{}phoneNumber\_label"{}});}
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ phoneNumber\_label-\/>setGeometry(QRect(10,\ 10,\ 101,\ 18));}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ frame\ =\ \textcolor{keyword}{new}\ QFrame(centralwidget);}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ frame-\/>setObjectName(\textcolor{stringliteral}{"{}frame"{}});}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ frame-\/>setGeometry(QRect(80,\ 200,\ 301,\ 81));}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ frame-\/>setFrameShape(QFrame::NoFrame);}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ password\_lineEdit\ =\ \textcolor{keyword}{new}\ QLineEdit(frame);}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ password\_lineEdit-\/>setObjectName(\textcolor{stringliteral}{"{}password\_lineEdit"{}});}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ password\_lineEdit-\/>setGeometry(QRect(10,\ 40,\ 261,\ 26));}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ password\_lineEdit-\/>setEchoMode(QLineEdit::Password);}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ password\_label\ =\ \textcolor{keyword}{new}\ QLabel(frame);}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ password\_label-\/>setObjectName(\textcolor{stringliteral}{"{}password\_label"{}});}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ password\_label-\/>setGeometry(QRect(10,\ 10,\ 66,\ 18));}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setCentralWidget(centralwidget);}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ retranslateUi(\mbox{\hyperlink{classMainWindow}{MainWindow}});}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ QMetaObject::connectSlotsByName(\mbox{\hyperlink{classMainWindow}{MainWindow}});}
+\DoxyCodeLine{00085\ \ \ \ \ \}\ \textcolor{comment}{//\ setupUi}}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{keywordtype}{void}\ retranslateUi(QMainWindow\ *\mbox{\hyperlink{classMainWindow}{MainWindow}})}
+\DoxyCodeLine{00088\ \ \ \ \ \{}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classMainWindow}{MainWindow}}-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}MainWindow"{}},\ \textcolor{stringliteral}{"{}SWallet"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ SignIn\_Button-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}MainWindow"{}},\ \textcolor{stringliteral}{"{}Sign\ in"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ newWallet\_Button-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}MainWindow"{}},\ \textcolor{stringliteral}{"{}New\ SWallet"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ phoneNumber\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}MainWindow"{}},\ \textcolor{stringliteral}{"{}Phone\ Number"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ password\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}MainWindow"{}},\ \textcolor{stringliteral}{"{}Password"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00094\ \ \ \ \ \}\ \textcolor{comment}{//\ retranslateUi}}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ \};}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00098\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUi_1_1MainWindow}{MainWindow}}:\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classUi__MainWindow}{Ui\_MainWindow}}\ \{\};}
+\DoxyCodeLine{00100\ \}\ \textcolor{comment}{//\ namespace\ Ui}}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00102\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00103\ }
+\DoxyCodeLine{00104\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ UI\_MAINWINDOW\_H}}
+
+\end{DoxyCode}

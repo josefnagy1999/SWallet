@@ -1,0 +1,31 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Client Class Reference}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}client\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Home\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Page Class Reference}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::client\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Home\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Page Class Reference}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Client\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{8}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{8}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{9}{section.4.6}%
+\contentsline {section}{\numberline {4.7}new\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SWallet Class Reference}{9}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::new\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SWallet Class Reference}{10}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}client\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Home\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Page Class Reference}{11}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{11}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}new\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SWallet Class Reference}{12}{section.4.11}%
+\contentsline {chapter}{\numberline {5}File Documentation}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}predefs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}clienthomepage.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{20}{section.5.3}%
+\contentsline {section}{\numberline {5.4}ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}newswallet.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{21}{section.5.4}%
+\contentsline {section}{\numberline {5.5}ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}newwallet.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{24}{section.5.5}%
+\contentsline {section}{\numberline {5.6}client.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{25}{section.5.6}%
+\contentsline {section}{\numberline {5.7}clienthomepage.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{26}{section.5.7}%
+\contentsline {section}{\numberline {5.8}clientmanager.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{26}{section.5.8}%
+\contentsline {section}{\numberline {5.9}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{26}{section.5.9}%
+\contentsline {section}{\numberline {5.10}newswallet.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{27}{section.5.10}%
+\contentsline {chapter}{Index}{29}{section*.20}%

@@ -1,0 +1,32 @@
+\doxysection{DBManager Class Reference}
+\hypertarget{classDBManager}{}\label{classDBManager}\index{DBManager@{DBManager}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classDBManager_a77cf32398f461d941b0b6892c1df3a83}\label{classDBManager_a77cf32398f461d941b0b6892c1df3a83} 
+bool {\bfseries insert\+New\+SWallet} (\mbox{\hyperlink{classClient}{Client}} client)
+\item 
+\Hypertarget{classDBManager_a2c5e9f6cefec5639f6977a7dd9f8af3d}\label{classDBManager_a2c5e9f6cefec5639f6977a7dd9f8af3d} 
+bool {\bfseries check\+Credentials} (int Phone\+\_\+\+Number, QString Password)
+\item 
+\Hypertarget{classDBManager_a936117d2d23b240da25ca69fcfa5c1f9}\label{classDBManager_a936117d2d23b240da25ca69fcfa5c1f9} 
+QList$<$ QString $>$ {\bfseries fetch\+\_\+\+User\+Data} (int Phone\+\_\+\+Number)
+\item 
+\Hypertarget{classDBManager_a2953481ccf1affa64c942921d6de3ff6}\label{classDBManager_a2953481ccf1affa64c942921d6de3ff6} 
+QList$<$ QString $>$ {\bfseries make\+Deposit} (QString Phone\+\_\+\+Number, QString Amount)
+\item 
+\Hypertarget{classDBManager_a69c13575a26861436bc6b5a60d903ea4}\label{classDBManager_a69c13575a26861436bc6b5a60d903ea4} 
+QList$<$ QString $>$ {\bfseries make\+Withdraw} (QString Phone\+\_\+\+Number, QString Amount)
+\item 
+\Hypertarget{classDBManager_a20ab1665880e83fc919858303661c63d}\label{classDBManager_a20ab1665880e83fc919858303661c63d} 
+QList$<$ QString $>$ {\bfseries Get\+Clients} ()
+\item 
+\Hypertarget{classDBManager_a37d97502245205b591b6e25b1971ed1a}\label{classDBManager_a37d97502245205b591b6e25b1971ed1a} 
+QSql\+Query\+Model \texorpdfstring{$\ast$}{*} {\bfseries fetch\+\_\+\+User\+Transactions} (QString)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+dbmanager.\+h\item 
+dbmanager.\+cpp\end{DoxyCompactItemize}

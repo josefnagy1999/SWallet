@@ -1,0 +1,28 @@
+\doxysection{dbmanager.\+h}
+\hypertarget{dbmanager_8h_source}{}\label{dbmanager_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DBMANAGER\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DBMANAGER\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}client.h"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QtSql>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QtDebug>}}
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classDBManager}{DBManager}}}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{classDBManager}{DBManager}}();}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{bool}\ insertNewSWallet(\mbox{\hyperlink{classClient}{Client}}\ client);}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{bool}\ checkCredentials(\textcolor{keywordtype}{int}\ Phone\_Number,\ QString\ Password);}
+\DoxyCodeLine{00012\ \ \ \ \ QList<QString>\ fetch\_UserData(\textcolor{keywordtype}{int}\ Phone\_Number);}
+\DoxyCodeLine{00013\ \ \ \ \ QList<QString>\ makeDeposit(QString\ Phone\_Number,\ QString\ Amount);}
+\DoxyCodeLine{00014\ \ \ \ \ QList<QString>\ makeWithdraw(QString\ Phone\_Number,\ QString\ Amount);}
+\DoxyCodeLine{00015\ \ \ \ \ QList<QString>\ GetClients();}
+\DoxyCodeLine{00016\ \ \ \ \ QSqlQueryModel\ *\ fetch\_UserTransactions(QString);}
+\DoxyCodeLine{00017\ \textcolor{keyword}{private}:\ \textcolor{comment}{//\ Fields}}
+\DoxyCodeLine{00018\ \ \ \ \ QSqlDatabase\ db;}
+\DoxyCodeLine{00019\ \textcolor{keyword}{private}:\ \textcolor{comment}{//\ Methods}}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{void}\ openConnection();}
+\DoxyCodeLine{00021\ \};}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DBMANAGER\_H}}
+
+\end{DoxyCode}

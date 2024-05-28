@@ -1,0 +1,50 @@
+\doxysection{Client\+Manager Class Reference}
+\hypertarget{classClientManager}{}\label{classClientManager}\index{ClientManager@{ClientManager}}
+
+
+Inheritance diagram for Client\+Manager\+:
+% FIG 0
+
+
+Collaboration diagram for Client\+Manager\+:
+% FIG 1
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classClientManager_a93849c8c755c7cfebaf0c0561ae62b0e}\label{classClientManager_a93849c8c755c7cfebaf0c0561ae62b0e} 
+void {\bfseries connected} ()
+\item 
+\Hypertarget{classClientManager_aa8ddceb4440790d21e51b46f08ae85f6}\label{classClientManager_aa8ddceb4440790d21e51b46f08ae85f6} 
+void {\bfseries disconnected} ()
+\item 
+\Hypertarget{classClientManager_ae1efe03e24aadbaf701d5e59c2ab2929}\label{classClientManager_ae1efe03e24aadbaf701d5e59c2ab2929} 
+void {\bfseries data\+Recieved} (QByte\+Array data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classClientManager_af9380870e26675827802d9090ed1d8de}\label{classClientManager_af9380870e26675827802d9090ed1d8de} 
+{\bfseries Client\+Manager} (QHost\+Address ip=QHost\+Address\+::\+Local\+Host, ushort port=4500, QObject \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\Hypertarget{classClientManager_abe8639eb8a17024988d65070a669bd67}\label{classClientManager_abe8639eb8a17024988d65070a669bd67} 
+void {\bfseries connect\+To\+Server} ()
+\item 
+\Hypertarget{classClientManager_a0c6c410228fa88be991d39bef8ba721c}\label{classClientManager_a0c6c410228fa88be991d39bef8ba721c} 
+void {\bfseries Disconnect\+From\+Server} ()
+\item 
+\Hypertarget{classClientManager_a3e2a70aadfcc9a05a850bd5774269569}\label{classClientManager_a3e2a70aadfcc9a05a850bd5774269569} 
+void {\bfseries send\+Message} (QString msg)
+\item 
+\Hypertarget{classClientManager_a1858c3b8d5b3d431f47d62749cee4b67}\label{classClientManager_a1858c3b8d5b3d431f47d62749cee4b67} 
+void {\bfseries send\+Client\+Info} (\mbox{\hyperlink{classClient}{Client}} c)
+\item 
+\Hypertarget{classClientManager_aaa922c1bacac29e1283f4ee504657272}\label{classClientManager_aaa922c1bacac29e1283f4ee504657272} 
+void {\bfseries sendcredentials} (QString Phone\+\_\+\+Number, QString Password)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+clientmanager.\+h\item 
+build/\+Desktop\+\_\+\+Qt\+\_\+6\+\_\+7\+\_\+0-\/\+Debug/moc\+\_\+clientmanager.\+cpp\item 
+clientmanager.\+cpp\end{DoxyCompactItemize}

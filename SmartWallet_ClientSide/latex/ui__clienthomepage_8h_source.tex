@@ -1,0 +1,165 @@
+\doxysection{ui\+\_\+clienthomepage.\+h}
+\hypertarget{ui__clienthomepage_8h_source}{}\label{ui__clienthomepage_8h_source}\index{build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_clienthomepage.h@{build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_clienthomepage.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ Form\ generated\ from\ reading\ UI\ file\ 'clienthomepage.ui'}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ Created\ by:\ Qt\ User\ Interface\ Compiler\ version\ 6.7.0}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**}}
+\DoxyCodeLine{00006\ \textcolor{comment}{**\ WARNING!\ All\ changes\ made\ in\ this\ file\ will\ be\ lost\ when\ recompiling\ UI\ file!}}
+\DoxyCodeLine{00007\ \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#ifndef\ UI\_CLIENTHOMEPAGE\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ UI\_CLIENTHOMEPAGE\_H}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QtCore/QVariant>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QtWidgets/QApplication>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QtWidgets/QDialog>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QtWidgets/QFrame>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QtWidgets/QGroupBox>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLabel>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLineEdit>}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ <QtWidgets/QPushButton>}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUi__clientHomePage}{Ui\_clientHomePage}}}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ QPushButton\ *deposit\_Button;}
+\DoxyCodeLine{00027\ \ \ \ \ QGroupBox\ *informationBox;}
+\DoxyCodeLine{00028\ \ \ \ \ QFrame\ *fullName\_frame;}
+\DoxyCodeLine{00029\ \ \ \ \ QLabel\ *fullName\_label;}
+\DoxyCodeLine{00030\ \ \ \ \ QLabel\ *user\_fullName;}
+\DoxyCodeLine{00031\ \ \ \ \ QFrame\ *nationalID\_frame;}
+\DoxyCodeLine{00032\ \ \ \ \ QLabel\ *nationalID\_label;}
+\DoxyCodeLine{00033\ \ \ \ \ QLabel\ *user\_NationalID;}
+\DoxyCodeLine{00034\ \ \ \ \ QFrame\ *phoneNumber\_frame;}
+\DoxyCodeLine{00035\ \ \ \ \ QLabel\ *phoneNumber\_label;}
+\DoxyCodeLine{00036\ \ \ \ \ QLabel\ *user\_phone\_Number;}
+\DoxyCodeLine{00037\ \ \ \ \ QFrame\ *Balance\_frame;}
+\DoxyCodeLine{00038\ \ \ \ \ QLabel\ *Balance\_label;}
+\DoxyCodeLine{00039\ \ \ \ \ QLabel\ *user\_balance;}
+\DoxyCodeLine{00040\ \ \ \ \ QPushButton\ *withdraw\_Button;}
+\DoxyCodeLine{00041\ \ \ \ \ QFrame\ *Amount\_frame;}
+\DoxyCodeLine{00042\ \ \ \ \ QLabel\ *Amount\_label;}
+\DoxyCodeLine{00043\ \ \ \ \ QLineEdit\ *Amount\_lineEdit;}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ setupUi(QDialog\ *\mbox{\hyperlink{classclientHomePage}{clientHomePage}})}
+\DoxyCodeLine{00046\ \ \ \ \ \{}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{classclientHomePage}{clientHomePage}}-\/>objectName().isEmpty())}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classclientHomePage}{clientHomePage}}-\/>setObjectName(\textcolor{stringliteral}{"{}clientHomePage"{}});}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classclientHomePage}{clientHomePage}}-\/>resize(877,\ 547);}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ deposit\_Button\ =\ \textcolor{keyword}{new}\ QPushButton(\mbox{\hyperlink{classclientHomePage}{clientHomePage}});}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ deposit\_Button-\/>setObjectName(\textcolor{stringliteral}{"{}deposit\_Button"{}});}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ deposit\_Button-\/>setGeometry(QRect(540,\ 260,\ 131,\ 51));}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ deposit\_Button-\/>setAutoFillBackground(\textcolor{keyword}{false});}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ deposit\_Button-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(87,\ 227,\ 137);\(\backslash\)n"{}}}
+\DoxyCodeLine{00055\ \textcolor{stringliteral}{"{}color:\ black;"{}}));}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ informationBox\ =\ \textcolor{keyword}{new}\ QGroupBox(\mbox{\hyperlink{classclientHomePage}{clientHomePage}});}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ informationBox-\/>setObjectName(\textcolor{stringliteral}{"{}informationBox"{}});}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ informationBox-\/>setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ informationBox-\/>setGeometry(QRect(40,\ 50,\ 481,\ 411));}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ QFont\ font;}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ font.setKerning(\textcolor{keyword}{true});}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ informationBox-\/>setFont(font);}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ informationBox-\/>setCheckable(\textcolor{keyword}{false});}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ fullName\_frame\ =\ \textcolor{keyword}{new}\ QFrame(informationBox);}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ fullName\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}fullName\_frame"{}});}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ fullName\_frame-\/>setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ fullName\_frame-\/>setGeometry(QRect(20,\ 100,\ 431,\ 51));}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ fullName\_frame-\/>setAutoFillBackground(\textcolor{keyword}{false});}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ fullName\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ fullName\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ fullName\_label\ =\ \textcolor{keyword}{new}\ QLabel(fullName\_frame);}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ fullName\_label-\/>setObjectName(\textcolor{stringliteral}{"{}fullName\_label"{}});}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ fullName\_label-\/>setGeometry(QRect(20,\ 10,\ 81,\ 31));}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ user\_fullName\ =\ \textcolor{keyword}{new}\ QLabel(fullName\_frame);}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ user\_fullName-\/>setObjectName(\textcolor{stringliteral}{"{}user\_fullName"{}});}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ user\_fullName-\/>setGeometry(QRect(130,\ 10,\ 271,\ 31));}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ nationalID\_frame\ =\ \textcolor{keyword}{new}\ QFrame(informationBox);}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}nationalID\_frame"{}});}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setGeometry(QRect(20,\ 160,\ 431,\ 51));}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ nationalID\_label\ =\ \textcolor{keyword}{new}\ QLabel(nationalID\_frame);}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ nationalID\_label-\/>setObjectName(\textcolor{stringliteral}{"{}nationalID\_label"{}});}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ nationalID\_label-\/>setGeometry(QRect(20,\ 10,\ 81,\ 31));}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ user\_NationalID\ =\ \textcolor{keyword}{new}\ QLabel(nationalID\_frame);}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ user\_NationalID-\/>setObjectName(\textcolor{stringliteral}{"{}user\_NationalID"{}});}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ user\_NationalID-\/>setGeometry(QRect(130,\ 10,\ 271,\ 31));}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ phoneNumber\_frame\ =\ \textcolor{keyword}{new}\ QFrame(informationBox);}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}phoneNumber\_frame"{}});}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setGeometry(QRect(20,\ 40,\ 431,\ 51));}
+\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ phoneNumber\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ phoneNumber\_label\ =\ \textcolor{keyword}{new}\ QLabel(phoneNumber\_frame);}
+\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ phoneNumber\_label-\/>setObjectName(\textcolor{stringliteral}{"{}phoneNumber\_label"{}});}
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ phoneNumber\_label-\/>setGeometry(QRect(10,\ 10,\ 101,\ 31));}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ user\_phone\_Number\ =\ \textcolor{keyword}{new}\ QLabel(phoneNumber\_frame);}
+\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ user\_phone\_Number-\/>setObjectName(\textcolor{stringliteral}{"{}user\_phone\_Number"{}});}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ user\_phone\_Number-\/>setGeometry(QRect(130,\ 10,\ 271,\ 31));}
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ Balance\_frame\ =\ \textcolor{keyword}{new}\ QFrame(informationBox);}
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ Balance\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}Balance\_frame"{}});}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ Balance\_frame-\/>setGeometry(QRect(110,\ 290,\ 251,\ 51));}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ Balance\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ Balance\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ Balance\_label\ =\ \textcolor{keyword}{new}\ QLabel(Balance\_frame);}
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ Balance\_label-\/>setObjectName(\textcolor{stringliteral}{"{}Balance\_label"{}});}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ Balance\_label-\/>setGeometry(QRect(10,\ 10,\ 61,\ 31));}
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ user\_balance\ =\ \textcolor{keyword}{new}\ QLabel(Balance\_frame);}
+\DoxyCodeLine{00108\ \ \ \ \ \ \ \ \ user\_balance-\/>setObjectName(\textcolor{stringliteral}{"{}user\_balance"{}});}
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ user\_balance-\/>setGeometry(QRect(80,\ 10,\ 151,\ 31));}
+\DoxyCodeLine{00110\ \ \ \ \ \ \ \ \ withdraw\_Button\ =\ \textcolor{keyword}{new}\ QPushButton(\mbox{\hyperlink{classclientHomePage}{clientHomePage}});}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ withdraw\_Button-\/>setObjectName(\textcolor{stringliteral}{"{}withdraw\_Button"{}});}
+\DoxyCodeLine{00112\ \ \ \ \ \ \ \ \ withdraw\_Button-\/>setGeometry(QRect(690,\ 260,\ 131,\ 51));}
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ withdraw\_Button-\/>setAutoFillBackground(\textcolor{keyword}{false});}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ withdraw\_Button-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(237,\ 51,\ 59);\(\backslash\)n"{}}}
+\DoxyCodeLine{00115\ \textcolor{stringliteral}{"{}color:\ black;"{}}));}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ Amount\_frame\ =\ \textcolor{keyword}{new}\ QFrame(\mbox{\hyperlink{classclientHomePage}{clientHomePage}});}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ Amount\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}Amount\_frame"{}});}
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ Amount\_frame-\/>setGeometry(QRect(560,\ 180,\ 251,\ 51));}
+\DoxyCodeLine{00119\ \ \ \ \ \ \ \ \ Amount\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ Amount\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00121\ \ \ \ \ \ \ \ \ Amount\_label\ =\ \textcolor{keyword}{new}\ QLabel(Amount\_frame);}
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ Amount\_label-\/>setObjectName(\textcolor{stringliteral}{"{}Amount\_label"{}});}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ Amount\_label-\/>setGeometry(QRect(10,\ 10,\ 61,\ 31));}
+\DoxyCodeLine{00124\ \ \ \ \ \ \ \ \ Amount\_lineEdit\ =\ \textcolor{keyword}{new}\ QLineEdit(Amount\_frame);}
+\DoxyCodeLine{00125\ \ \ \ \ \ \ \ \ Amount\_lineEdit-\/>setObjectName(\textcolor{stringliteral}{"{}Amount\_lineEdit"{}});}
+\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ Amount\_lineEdit-\/>setGeometry(QRect(90,\ 10,\ 113,\ 26));}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \ \ \ \ \ \ \ \ retranslateUi(\mbox{\hyperlink{classclientHomePage}{clientHomePage}});}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \ \ \ \ \ \ \ \ QMetaObject::connectSlotsByName(\mbox{\hyperlink{classclientHomePage}{clientHomePage}});}
+\DoxyCodeLine{00131\ \ \ \ \ \}\ \textcolor{comment}{//\ setupUi}}
+\DoxyCodeLine{00132\ }
+\DoxyCodeLine{00133\ \ \ \ \ \textcolor{keywordtype}{void}\ retranslateUi(QDialog\ *\mbox{\hyperlink{classclientHomePage}{clientHomePage}})}
+\DoxyCodeLine{00134\ \ \ \ \ \{}
+\DoxyCodeLine{00135\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classclientHomePage}{clientHomePage}}-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Home\ Page"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00136\ \ \ \ \ \ \ \ \ deposit\_Button-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Deposit"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00137\ \ \ \ \ \ \ \ \ informationBox-\/>setTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}SWallet\ Information"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ fullName\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Full\ Name"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ user\_fullName-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}TextLabel"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00140\ \ \ \ \ \ \ \ \ nationalID\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}National\ ID"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ user\_NationalID-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}TextLabel"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00142\ \ \ \ \ \ \ \ \ phoneNumber\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Phone\ Number"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00143\ \ \ \ \ \ \ \ \ user\_phone\_Number-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}TextLabel"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00144\ \ \ \ \ \ \ \ \ Balance\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Balance"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ user\_balance-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}TextLabel"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ withdraw\_Button-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Withdraw"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ Amount\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}Amount"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ Amount\_lineEdit-\/>setPlaceholderText(QCoreApplication::translate(\textcolor{stringliteral}{"{}clientHomePage"{}},\ \textcolor{stringliteral}{"{}0"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00149\ \ \ \ \ \}\ \textcolor{comment}{//\ retranslateUi}}
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00151\ \};}
+\DoxyCodeLine{00152\ }
+\DoxyCodeLine{00153\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00154\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUi_1_1clientHomePage}{clientHomePage}}:\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classUi__clientHomePage}{Ui\_clientHomePage}}\ \{\};}
+\DoxyCodeLine{00155\ \}\ \textcolor{comment}{//\ namespace\ Ui}}
+\DoxyCodeLine{00156\ }
+\DoxyCodeLine{00157\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00158\ }
+\DoxyCodeLine{00159\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ UI\_CLIENTHOMEPAGE\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,142 @@
+\doxysection{ui\+\_\+newwallet.\+h}
+\hypertarget{ui__newwallet_8h_source}{}\label{ui__newwallet_8h_source}\index{build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_newwallet.h@{build/Desktop\_Qt\_6\_7\_0-\/Debug/ui\_newwallet.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ Form\ generated\ from\ reading\ UI\ file\ 'newwallet.ui'}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ Created\ by:\ Qt\ User\ Interface\ Compiler\ version\ 6.7.0}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**}}
+\DoxyCodeLine{00006\ \textcolor{comment}{**\ WARNING!\ All\ changes\ made\ in\ this\ file\ will\ be\ lost\ when\ recompiling\ UI\ file!}}
+\DoxyCodeLine{00007\ \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#ifndef\ UI\_NEWWALLET\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ UI\_NEWWALLET\_H}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QtCore/QVariant>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QtWidgets/QApplication>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QtWidgets/QComboBox>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QtWidgets/QDialog>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QtWidgets/QFrame>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QtWidgets/QGroupBox>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLabel>}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLineEdit>}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#include\ <QtWidgets/QPushButton>}}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUi__newSWallet}{Ui\_newSWallet}}}
+\DoxyCodeLine{00025\ \{}
+\DoxyCodeLine{00026\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00027\ \ \ \ \ QGroupBox\ *registration\_Box;}
+\DoxyCodeLine{00028\ \ \ \ \ QFrame\ *userName\_frame;}
+\DoxyCodeLine{00029\ \ \ \ \ QLineEdit\ *user\_Name\_lineEdit;}
+\DoxyCodeLine{00030\ \ \ \ \ QLabel\ *userName\_label;}
+\DoxyCodeLine{00031\ \ \ \ \ QFrame\ *password\_frame;}
+\DoxyCodeLine{00032\ \ \ \ \ QLineEdit\ *password\_lineEdit;}
+\DoxyCodeLine{00033\ \ \ \ \ QLabel\ *password\_label;}
+\DoxyCodeLine{00034\ \ \ \ \ QFrame\ *nationalID\_frame;}
+\DoxyCodeLine{00035\ \ \ \ \ QLineEdit\ *nationalID\_lineEdit;}
+\DoxyCodeLine{00036\ \ \ \ \ QLabel\ *nationalID\_label;}
+\DoxyCodeLine{00037\ \ \ \ \ QFrame\ *age\_frame;}
+\DoxyCodeLine{00038\ \ \ \ \ QLabel\ *age\_label;}
+\DoxyCodeLine{00039\ \ \ \ \ QComboBox\ *age\_comboBox;}
+\DoxyCodeLine{00040\ \ \ \ \ QPushButton\ *create\_Button;}
+\DoxyCodeLine{00041\ \ \ \ \ QPushButton\ *cancel\_Button;}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ setupUi(QDialog\ *\mbox{\hyperlink{classnewSWallet}{newSWallet}})}
+\DoxyCodeLine{00044\ \ \ \ \ \{}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{classnewSWallet}{newSWallet}}-\/>objectName().isEmpty())}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classnewSWallet}{newSWallet}}-\/>setObjectName(\textcolor{stringliteral}{"{}newSWallet"{}});}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classnewSWallet}{newSWallet}}-\/>resize(716,\ 485);}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ registration\_Box\ =\ \textcolor{keyword}{new}\ QGroupBox(\mbox{\hyperlink{classnewSWallet}{newSWallet}});}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ registration\_Box-\/>setObjectName(\textcolor{stringliteral}{"{}registration\_Box"{}});}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ registration\_Box-\/>setGeometry(QRect(60,\ 50,\ 451,\ 411));}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ userName\_frame\ =\ \textcolor{keyword}{new}\ QFrame(registration\_Box);}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ userName\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}userName\_frame"{}});}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ userName\_frame-\/>setGeometry(QRect(20,\ 50,\ 401,\ 51));}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ userName\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ userName\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ user\_Name\_lineEdit\ =\ \textcolor{keyword}{new}\ QLineEdit(userName\_frame);}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ user\_Name\_lineEdit-\/>setObjectName(\textcolor{stringliteral}{"{}user\_Name\_lineEdit"{}});}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ user\_Name\_lineEdit-\/>setGeometry(QRect(90,\ 10,\ 301,\ 31));}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ userName\_label\ =\ \textcolor{keyword}{new}\ QLabel(userName\_frame);}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ userName\_label-\/>setObjectName(\textcolor{stringliteral}{"{}userName\_label"{}});}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ userName\_label-\/>setGeometry(QRect(10,\ 10,\ 81,\ 31));}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ password\_frame\ =\ \textcolor{keyword}{new}\ QFrame(registration\_Box);}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ password\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}password\_frame"{}});}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ password\_frame-\/>setGeometry(QRect(20,\ 110,\ 401,\ 51));}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ password\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ password\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ password\_lineEdit\ =\ \textcolor{keyword}{new}\ QLineEdit(password\_frame);}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ password\_lineEdit-\/>setObjectName(\textcolor{stringliteral}{"{}password\_lineEdit"{}});}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ password\_lineEdit-\/>setGeometry(QRect(90,\ 10,\ 301,\ 31));}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ password\_lineEdit-\/>setEchoMode(QLineEdit::Password);}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ password\_label\ =\ \textcolor{keyword}{new}\ QLabel(password\_frame);}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ password\_label-\/>setObjectName(\textcolor{stringliteral}{"{}password\_label"{}});}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ password\_label-\/>setGeometry(QRect(10,\ 10,\ 81,\ 31));}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ nationalID\_frame\ =\ \textcolor{keyword}{new}\ QFrame(registration\_Box);}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}nationalID\_frame"{}});}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setGeometry(QRect(20,\ 170,\ 401,\ 51));}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ nationalID\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ nationalID\_lineEdit\ =\ \textcolor{keyword}{new}\ QLineEdit(nationalID\_frame);}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ nationalID\_lineEdit-\/>setObjectName(\textcolor{stringliteral}{"{}nationalID\_lineEdit"{}});}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ nationalID\_lineEdit-\/>setGeometry(QRect(90,\ 10,\ 301,\ 31));}
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ nationalID\_label\ =\ \textcolor{keyword}{new}\ QLabel(nationalID\_frame);}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ nationalID\_label-\/>setObjectName(\textcolor{stringliteral}{"{}nationalID\_label"{}});}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ nationalID\_label-\/>setGeometry(QRect(10,\ 10,\ 81,\ 31));}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ age\_frame\ =\ \textcolor{keyword}{new}\ QFrame(registration\_Box);}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ age\_frame-\/>setObjectName(\textcolor{stringliteral}{"{}age\_frame"{}});}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ age\_frame-\/>setGeometry(QRect(20,\ 230,\ 121,\ 51));}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ age\_frame-\/>setFrameShape(QFrame::StyledPanel);}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ age\_frame-\/>setFrameShadow(QFrame::Raised);}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ age\_label\ =\ \textcolor{keyword}{new}\ QLabel(age\_frame);}
+\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ age\_label-\/>setObjectName(\textcolor{stringliteral}{"{}age\_label"{}});}
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ age\_label-\/>setGeometry(QRect(10,\ 10,\ 31,\ 31));}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ age\_comboBox\ =\ \textcolor{keyword}{new}\ QComboBox(age\_frame);}
+\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ age\_comboBox-\/>setObjectName(\textcolor{stringliteral}{"{}age\_comboBox"{}});}
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ age\_comboBox-\/>setGeometry(QRect(60,\ 10,\ 51,\ 31));}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ create\_Button\ =\ \textcolor{keyword}{new}\ QPushButton(\mbox{\hyperlink{classnewSWallet}{newSWallet}});}
+\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ create\_Button-\/>setObjectName(\textcolor{stringliteral}{"{}create\_Button"{}});}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ create\_Button-\/>setGeometry(QRect(550,\ 170,\ 131,\ 51));}
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ create\_Button-\/>setAutoFillBackground(\textcolor{keyword}{false});}
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ create\_Button-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(87,\ 227,\ 137);\(\backslash\)n"{}}}
+\DoxyCodeLine{00101\ \textcolor{stringliteral}{"{}color:\ black;"{}}));}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ cancel\_Button\ =\ \textcolor{keyword}{new}\ QPushButton(\mbox{\hyperlink{classnewSWallet}{newSWallet}});}
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ cancel\_Button-\/>setObjectName(\textcolor{stringliteral}{"{}cancel\_Button"{}});}
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ cancel\_Button-\/>setGeometry(QRect(550,\ 240,\ 131,\ 51));}
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ cancel\_Button-\/>setAutoFillBackground(\textcolor{keyword}{false});}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ cancel\_Button-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(237,\ 51,\ 59);\(\backslash\)n"{}}}
+\DoxyCodeLine{00107\ \textcolor{stringliteral}{"{}color:\ black;"{}}));}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ retranslateUi(\mbox{\hyperlink{classnewSWallet}{newSWallet}});}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ QMetaObject::connectSlotsByName(\mbox{\hyperlink{classnewSWallet}{newSWallet}});}
+\DoxyCodeLine{00112\ \ \ \ \ \}\ \textcolor{comment}{//\ setupUi}}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00114\ \ \ \ \ \textcolor{keywordtype}{void}\ retranslateUi(QDialog\ *\mbox{\hyperlink{classnewSWallet}{newSWallet}})}
+\DoxyCodeLine{00115\ \ \ \ \ \{}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classnewSWallet}{newSWallet}}-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}New\ SWallet"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ registration\_Box-\/>setTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}New\ SWallet\ Registration:"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ userName\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}User\ Name"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00119\ \ \ \ \ \ \ \ \ password\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}Password"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ nationalID\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}National\ ID"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00121\ \ \ \ \ \ \ \ \ age\_label-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}Age"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ age\_comboBox-\/>setCurrentText(QString());}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ age\_comboBox-\/>setPlaceholderText(QString());}
+\DoxyCodeLine{00124\ \ \ \ \ \ \ \ \ create\_Button-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}Create"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00125\ \ \ \ \ \ \ \ \ cancel\_Button-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}newSWallet"{}},\ \textcolor{stringliteral}{"{}Cancel"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00126\ \ \ \ \ \}\ \textcolor{comment}{//\ retranslateUi}}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \};}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00131\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUi_1_1newSWallet}{newSWallet}}:\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classUi__newSWallet}{Ui\_newSWallet}}\ \{\};}
+\DoxyCodeLine{00132\ \}\ \textcolor{comment}{//\ namespace\ Ui}}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00134\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00135\ }
+\DoxyCodeLine{00136\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ UI\_NEWWALLET\_H}}
+
+\end{DoxyCode}

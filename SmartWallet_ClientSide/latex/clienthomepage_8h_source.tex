@@ -1,0 +1,38 @@
+\doxysection{clienthomepage.\+h}
+\hypertarget{clienthomepage_8h_source}{}\label{clienthomepage_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CLIENTHOMEPAGE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CLIENTHOMEPAGE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}clientmanager.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classclientHomePage}{clientHomePage}};}
+\DoxyCodeLine{00009\ \}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classclientHomePage}{clientHomePage}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00012\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classclientHomePage}{clientHomePage}}(\textcolor{keywordtype}{int}\ Phone\_number,QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{classclientHomePage}{\string~clientHomePage}}();}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_deposit\_Button\_clicked();}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_withdraw\_Button\_clicked();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}:\ \textcolor{comment}{//\ Methods}}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ requestUserData();}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ receivedUserData(QByteArray\ data);}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ receivedNewBalance(QByteArray\ data);}
+\DoxyCodeLine{00027\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{classUi_1_1clientHomePage}{Ui::clientHomePage}}\ *ui;}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ Phone\_Number;}
+\DoxyCodeLine{00030\ \ \ \ \ \mbox{\hyperlink{classClientManager}{ClientManager}}\ *\ clientM;}
+\DoxyCodeLine{00031\ \};}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CLIENTHOMEPAGE\_H}}
+
+\end{DoxyCode}

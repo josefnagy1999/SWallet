@@ -1,0 +1,37 @@
+\doxysection{newswallet.\+h}
+\hypertarget{newswallet_8h_source}{}\label{newswallet_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ NEWSWALLET\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ NEWSWALLET\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}client.h"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}clientmanager.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnewSWallet}{newSWallet}};}
+\DoxyCodeLine{00009\ \}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnewSWallet}{newSWallet}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00012\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classnewSWallet}{newSWallet}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ fill\_age\_comboBox();}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{bool}\ validData();}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ fill\_client\_info(\mbox{\hyperlink{classClient}{Client}}\ \&c);}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{void}\ NSWallet\_ServerResponse(QByteArray\ data);}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classnewSWallet}{\string~newSWallet}}();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_cancel\_Button\_clicked();}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_create\_Button\_clicked();}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{classUi_1_1newSWallet}{Ui::newSWallet}}\ *ui;}
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{classClientManager}{ClientManager}}\ *clientM;}
+\DoxyCodeLine{00030\ \};}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ NEWSWALLET\_H}}
+
+\end{DoxyCode}
